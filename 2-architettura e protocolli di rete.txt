@@ -25,7 +25,7 @@ Fornisce i mezzi meccanici e fisici per gestire la connessione. Definisce le car
 Fornisce mezzi per il trasferimento di unità dati e per gestire guasti allo stato fisico. Si occupa di rilevare e recuperare gli errori, controllo di flusso e delimitazione delle unità dati. (SEGMENTI)
 
 3) Rete
-Fornisce i mezzi per instaurare, mantenere e abbattere una connessione di rete. Si occupa di instradamento, controllo di flusso e congestione e tariffazione.
+Fornisce i mezzi per instaurare, mantenere e abbattere una connessione di rete. Si occupa di instradamento, controllo di flusso e congestione, tariffazione e indirizzamento.
 
 I primi tre livelli sono presenti in tutti gli apparati di rete, i livelli a partire dal 4 invece sono presenti soltanto nei dispositivi terminali.
 In particolare: HUB (Livello 1), SWITCH(Livello 2-MAC), ROUTER(Livello 3-IP)
