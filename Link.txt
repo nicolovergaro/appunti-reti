@@ -15,3 +15,9 @@ Reti Ethernet oggi->Hub->Dominio di collisione <=> Varianti di CSMA->CSMA/CD
 
 7-standard per reti locali <=> 1-concetti generali
 Reti Ethernet oggi->Switch->Store and forward <=> Condivisione di nodo->condivisione di pacchetto
+
+
+Il router lavora a livello 3 -> IP
+Lo switch lavora a livello 2 -> indirizzo MAC
+Hub lavora a livello 1 -> bit
+Nessuno a livello 4, non c'è bisogno
