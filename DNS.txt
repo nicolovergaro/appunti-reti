@@ -1,4 +1,4 @@
-Domain Name System, utilizzato per la traduzione da nomi logici in indirizzi IP e viceversa, basato sugGerarchia di database distribuiti.
+Domain Name System, utilizzato per la traduzione da nomi logici in indirizzi IP e viceversa, basato su gerarchia di database distribuiti. Si trova a livello applicazione.
 
 Gearchia dei server:
 - Root name server: Sono contattati dal local name server se non si riesce a risolvere un nome;
@@ -14,6 +14,7 @@ Un DNS è a tutti gli effetti un database che memorizza dei record con formato: 
 I tipi possono essere:
 
 - type=A: name=hostname, value=IP es. www.google.com 120.40.50.150
+
 - type=CNAME: name=alias value=nome canonico es. 
 A  workHP.polito.it 	130.192.85.1
 CN www.polito.it 		workHP.polito.it

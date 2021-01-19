@@ -85,7 +85,7 @@ Con DHCP si può ottenere oltre all'IP anche la configurazione di rete rispetto 
 
 
 
-			ICMP - Internet Control Message Protocol
+		ICMP - Internet Control Message Protocol
 ICMP viene usato come sistema di scambio di informazioni a livello rete, come ecco request/reply o errori. ICMP è impacchettato dentro IP.
 Un messaggio ICMP è composto da tipo, codice e i primi 8 byte del datagram IP che causano l'errore.
 
