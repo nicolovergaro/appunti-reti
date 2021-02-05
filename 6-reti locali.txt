@@ -29,7 +29,7 @@ Se una stazione trova il canale libero trasmette e continua ad ascoltare anche d
 	CSMA/CA (Collision Avoidance) - WiFi
 CSMA con prevenzione delle collisioni (mezzi radio).
 Versione non persistente di CSMA in cui è necessaria la conferma di ricezione.
-La stazione che vuole trasmettere ascolta il canale per un tempo DIFS (Distributed Interfrace Space) e inizia la trasmissione. Se il canale è occupato o lo diventa durante DIFS aspetta un tempo di backoff, che viene decremento mentre il canale rimane libero, poi si riprova la trasmissione. 
+La stazione che vuole trasmettere ascolta il canale per un tempo DIFS (Distributed Interframe Space) e inizia la trasmissione. Se il canale è occupato o lo diventa durante DIFS aspetta un tempo di backoff, che viene decremento mentre il canale rimane libero, poi si riprova la trasmissione. 
 La stazione che riceve la trama, verifica che sia corretta e aspetta un tempo SIFS (Short) prima di inviare ACK, che ha priorità sulle altre trame. Se il trasmettitore non riceve ACK, inizia a decrementare backoff e quando arriva a 0 riprova la trasmissione. Le collisioni si possono comunque verificare e le stazioni raddoppiano il backoff. Prestazioni migliori su reti ridotte.
 
 
