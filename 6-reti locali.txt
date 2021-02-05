@@ -18,7 +18,7 @@ Carrier Sense Multiple Access
 Si ascolta il canale prima di trasmettere e se lo si trova libero si inizia la trasmissione, altrimenti si pospone. 
 Se trovo il canale occupato mi comporto in modo diverso a seconda della persistenza impostata: CSMA p-persistente, aspetto che si liberi il canale e trasmetto con probabilità p, ovvero ritardo la trasmissione con probabilità (1-p). Ethernet usa  CSMA 1-persistente, WIFI usa CSMA non-persistente, ovvero un tempo casuale e ricontrolla, se libero trasmette.
 
-Le collisioni si possono comunque verificare a causa dei tempi di propagazione, in particolare è fondamentale la distanza e la dimensione delle trame, infatti con trame di dimensione maggiore ho meno collisioni perchè sono più esposto alle collisioni inviando più trame più piccole. Disegno: https://www.icloud.com/iclouddrive/0M6tMndhgW4dKfiof8qbUKo5g#06_-_Reti_locali_-_collisioni_su_csma
+Le collisioni si possono comunque verificare a causa dei tempi di propagazione, in particolare è fondamentale la distanza e la dimensione delle trame, infatti con trame di dimensione maggiore ho meno collisioni perchè sono più esposto alle collisioni inviando più trame più piccole. Disegno: https://github.com/nicolovergaro/appunti-reti/blob/main/06%20-%20Reti%20locali%20-%20collisioni%20su%20csma.pdf
 
 	VARIANTI DI CSMA
 	CSMA/CD (Collision Detection) - Ethernet
